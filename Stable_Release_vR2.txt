@@ -1,0 +1,45 @@
+Schwifty Kernel Stable Release 2 Changelog: (7/3/2018)
+
+* Revert "msm: secure_buffer: Fix stage-2 protection of kernel text reg
+* schwifty: updated to vR2
+* schwifty: enable westwood TCP
+* soc: qcom: smp2p: fix __iomem access in SMP2P_{GET,SET}_*
+* msm: clock-osm: Use CLKFLAG_NO_RATE_CACHE for pwrcl and perfcl clk
+* drivers: cpufreq_interactive: handle error for module load fail
+* CHROMIUM: cpufreq: interactive: calculate load before freq change
+* clk: msm: clock-cpu-8996: Use CLKFLAG_NO_RATE_CACHE for perfcl_hf_mux
+* msm: thermal: Check temperature only if probed
+* net: core: Remove warning for cloned packets in ingress path
+* ion: ensure valid start address
+* ANDROID: cpufreq: stats: add uid removal for uid_time_in_state
+* ANDROID: cpufreq_stat: add per task/uid/freq stats
+* block, bfq: add Early Queue Merge (EQM) to BFQ-v7r8 for 3.18.0
+* block: introduce the BFQ-v7r8 I/O sched for 3.18.0
+* schwifty: enable more TCP options
+* schwifty: add back missing block
+* schwifty: enable ZEN IO
+* msm_performance: do not allow userspace to change min/max cpu limits
+* printk: Add sys kernel interface to configure linux printk logging
+* clock-cpu-8996.c: Expose PVS level via sysfs
+* devfreq: Expose GPU used frequency statistics in a new sysfs
+* tcp_output: set initial TCP window size to 64K (speed improvement)
+* schwifty: fix some building errors
+* msm_bus_arb/msm_bus_arb_adhoc: Make update_request_legacy/update_requ
+* mmc/core: disable crc to improve performance
+* zen-iosched: set fifo batch to 16 to reduce overload on eMMC and CPU
+* mmzone: Fix ntfs not compiling as a module issue
+* block: correct zen version number to the one for zen v2
+* block: add zen scheduler
+* cpufreq_interactive: remove boost functionality  …
+* cpu_stress_test: Improve CPU stress function  …
+* msm: mdss: Silence "invalid data for dither" error  …
+* cpu_stress_test: Disable preemption while looping intensive instructions  …
+* cpu_stress_test: Add back an increased start delay of 15 seconds  …
+* cpu_stress_test: Add specialized assembly for stressing arm64  …
+* cpu_stress_test: Ensure all available CPUs are tested thoroughly  …
+* kernel: Add CPU stress test driver for identifying CPU instability  …
+* net: sch_generic: Remove unnecessary watchdog warning  …
+* msm: sensor: Don't return an error when failing to read pinctrl  …
+* msm: secure_buffer: Fix stage-2 protection of kernel text region  …
+* workqueue: Schedule workers on CPU0 or CPU0/CPU1 by default  …
+* rcu: Restrict nocb kthreads to power cluster  …
